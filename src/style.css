@@ -1,1 +1,28 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  background-color: white;
+  font-size: 80px;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardTop {
+  display: flex;
+  justify-content: start;
+}
+.cardNumero {
+  display: flex;
+  justify-content: center;
+}
+.cardBottom {
+  display: flex;
+  rotate: 180deg;
+}
